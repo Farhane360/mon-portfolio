@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRIEMANN | BLVCK_DEV</title>
+    <!-- LINK TO CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- LINK TO REMIXICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"/>
+    <!-- LINK TO BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1><span class="logo-span">FRIE</span>MANN</h1>
+        </div>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#about">Moi</a></li>
+            <li><a href="#project">Projets</a></li>
+            <li><button onclick="openPopup()" class="contact-btn">Contact</button></li>
+        </ul>
+    </nav>
+    <div id="overlay"></div>
+    <div id="contact-popup">
+        <img src="img/speech-bubble.png" alt="">
+        <h2>Vous avez un projet ou besoin de mes services ? Parlons-en !</h2>
+        <p>Discutons de votre projet et voyons comment je peux vous aider à le concrétiser !</p>
+        <div class="social-networks">
+            <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-mail-fill"></i></a>
+            <a href="#"><i class="ri-whatsapp-fill"></i></a>
+        </div>
+    </div>
+    <div class="section hero">
+        <div class="hero-pres">
+            <h1>Salut, Je suis Friemann 👋.</h1>
+            <h2>Développeur Front-end et Back-end</h2>
+            <h3>Web designer à mes heures perdues 😅</h3>
+        </div>
+        <div class="specialities">
+            <p>Je crée des sites et applications web au design moderne, épuré et futuriste, alliant esthétique et performance.</p>
+            <p>Disponible, je suis ouvert aux collaborations et missions !</p>
+        </div>
+    </div>
+
+    <div class="section about" id="about">
+        <div class="about-content">
+            <h2>Moi</h2>
+            <p><strong>👋 Salut, moi c'est Friemann !</strong>Développeur <strong>Front-end (60%) & Back-end (40%)</strong>, passionné par le design et 
+                l'expérience utilisateur. <strong>Autodidacte</strong>, j'ai appris à coder par curiosité et par défi, explorant chaque ligne de code 
+                pour créer des interfaces modernes, fluides et engageantes.
+            </p>
+            <p> <strong>🎨 L'UX/UI avant tout :</strong>Pour moi, un bon site ne se limite pas à son fonctionnement. Son design et son ergonomie 
+                doivent captiver l'utilisateur, l'inciter à explorer, interagir et revenir. J'aime créer des expériences visuelles uniques, où 
+                chaque détail compte.
+            </p>
+            <p><strong>💡 Créatif & Innovant :</strong>J'adore expérimenter, tester différentes approches et repousser les limites du design et du 
+                code. Chaque projet est une opportunité de faire mieux et autrement.
+            </p>
+        </div>
+        <div class="about-img">
+            <img src="img/blvck_dev.png" alt="">
+        </div>
+    </div> 
+    
+    <div class="section services">
+        <div class="services-content">
+            <h2>Mes Services</h2>
+            <div class="all-services">
+                <div class="card-services">
+                    <img src="img/code.png" alt="">
+                    <h3>Développement Web</h3>
+                    <p>Création de sites web sur mesure, allant de la conception à la mise en ligne, pour des performances optimales et une expérience utilisateur fluide.</p>
+                </div>
+                <div class="card-services">
+                    <img src="img/ui.png" alt="">
+                    <h3>Design UI/UX</h3>
+                    <p>Designs modernes et ergonomiques pour améliorer l'expérience utilisateur, en combinant esthétique et fonctionnalité.</p>
+                </div>
+                <div class="card-services">
+                    <img src="img/repair.png" alt="">
+                    <h3>Maintenance Technique</h3>
+                    <p>Suivi et mise à jour régulière de vos sites web, gestion des bugs, optimisation de la sécurité et ajout de nouvelles fonctionnalités.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section skills">
+        <div class="skills-content">
+            <h2>Compétences</h2>
+            <div class="all-skills">
+                <div class="card-skill">
+                    <img src="img/html.png" alt="">
+                </div>
+                <div class="card-skill">
+                    <img src="img/css-3.png" alt="">
+                </div>
+                <div class="card-skill">
+                    <img src="img/bootstrap.png" alt="">
+                </div>
+                <div class="card-skill">
+                    <img src="img/js.png" alt="">
+                </div>
+                <div class="card-skill">
+                    <img src="img/django.png" alt="">
+                </div>
+                <div class="card-skill">
+                    <img src="img/mysql.png" alt="">
+                </div>
+                <div class="card-skill">
+                    <img src="img/figma.png" alt="">
+                </div>
+                <div class="card-skill">
+                    <img src="img/canva.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section projects" id="project">
+        <div class="projects-content">
+            <h2>Mes Projets</h2>
+            <div class="projects-grid">
+                <!-- Projet 1 -->
+                <div class="card-project">
+                    <img src="img/anydo.png" alt="Projet 1">
+                    <h3>Any.Do</h3>
+                    <p>To Do List App</p>
+                    <a href="https://github.com/tonprofil/projet1" target="_blank" class="btn-github">Github <i class="ri-github-fill"></i></a>
+                </div>
+    
+                <!-- Projet 2 -->
+                <div class="card-project">
+                    <img src="img/quotes.png" alt="Projet 2">
+                    <h3>Quotes App</h3>
+                    <p>App de citation aléatoire</p>
+                    <a href="https://github.com/tonprofil/projet2" target="_blank" class="btn-github">Github <i class="ri-github-fill"></i></a>
+                </div>
+    
+                <!-- Projet 3 -->
+                <div class="card-project">
+                    <img src="img/codelab.png" alt="Projet 3">
+                    <h3>CodeLab</h3>
+                    <p>StartUp Informatique</p>
+                    <a href="https://github.com/tonprofil/projet3" target="_blank" class="btn-github">Github <i class="ri-github-fill"></i></a>
+                </div>
+    
+                <!-- Projet 4 -->
+                <div class="card-project">
+                    <img src="img/Uniq.png" alt="Projet 4">
+                    <h3>Uniq | Market</h3>
+                    <p>Market Mono-vendeur</p>
+                    <a href="https://github.com/tonprofil/projet4" target="_blank" class="btn-github">Github <i class="ri-github-fill"></i></a>
+                </div>
+    
+                <!-- Projet 5 -->
+                <div class="card-project">
+                    <img src="img/Gourmet.png" alt="Projet 5">
+                    <h3>Le Gourmet</h3>
+                    <p>Landing Page pour un Fast Food</p>
+                    <a href="https://github.com/tonprofil/projet5" target="_blank" class="btn-github">Github <i class="ri-github-fill"></i></a>
+                </div>
+    
+                <!-- Projet 6 -->
+                <div class="card-project">
+                    <img src="img/Recipes.png" alt="Projet 6">
+                    <h3>Recipes App</h3>
+                    <p>App d'ajout de recettes culinères</p>
+                    <a href="https://github.com/tonprofil/projet6" target="_blank" class="btn-github">Github <i class="ri-github-fill"></i></a>
+                </div>
+    
+                <!-- Projet 7 -->
+                <div class="card-project">
+                    <img src="img/coffeeshop.png" alt="Projet 7">
+                    <h3>Design d'un Café shop</h3>
+                    <p>Design page d'atterrisage du Coffee shop</p>
+                    <a href="https://github.com/tonprofil/projet7" target="_blank" class="btn-github">Github <i class="ri-github-fill"></i></a>
+                </div>
+    
+                <!-- Projet 8 -->
+                <div class="card-project">
+                    <img src="img/design.png" alt="Projet 8">
+                    <h3>Maquette Restaurant</h3>
+                    <p>Design complet de la page digital du restaurant</p>
+                    <a href="https://github.com/tonprofil/projet8" target="_blank" class="btn-github">Github <i class="ri-github-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="devise">"Vivre, apprendre et progresser chaque jour."</p>
+        <p>FRIEMANN &copy; 2025 | Tous droits réservés</p>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
