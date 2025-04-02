@@ -248,6 +248,7 @@ li button:hover{
     height: 100vh;
 }
 
+
 .all-services {
     display: flex;
     justify-content: space-between;
@@ -815,12 +816,20 @@ footer .devise{
         width: 100px;
     }
 
+    .services{
+        margin-top: 35%;
+    }
+
     .services-content h2{
         margin-top: 150px;
     }
 
     .all-services{
-        margin-left: 60%;
+        margin-left: 40%;
+    }
+
+    .skills{
+        margin-top: 50%;
     }
 
     .skills-content h2{
@@ -838,7 +847,7 @@ footer .devise{
 
     .all-skills {
         grid-template-columns: repeat(4, 1fr); /* Réduction à 2 colonnes */
-        margin-left: 20%;
+        margin-left: 10%;
     }
 
     .card-skill {
