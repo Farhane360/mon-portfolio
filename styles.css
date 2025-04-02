@@ -834,7 +834,10 @@ footer .devise{
     }
 
     .card-services{
-        margin-left: 180%;
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
 
     .all-services{
@@ -857,6 +860,7 @@ footer .devise{
 
     .projects-content{
         margin-top: -35%;
+        height: auto;
     }
 
     .projects-content h2{
