@@ -224,8 +224,12 @@ li button:hover{
     align-items: center;
 }
 
-.about-content{
-    margin-right: 45px;
+.section{
+    height: 50vh;
+}
+
+.about-content {
+    margin-bottom: -50%;
 }
 
 .about-content h2{
@@ -754,14 +758,14 @@ footer .devise{
     }
 }
 
-/* Responsive pour mobile (max-width: 430px) */
-@media screen and (max-width: 430px) {
+/* Responsive pour mobile (max-width: 428px) */
+@media screen and (max-width: 428px) {
     nav {
         padding: 15px 40px;
     }
 
     .logo a {
-        font-size: 18px; /* Réduction de la taille du logo */
+        font-size: 14px; /* Réduction de la taille du logo */
     }
 
     ul li{
@@ -781,19 +785,21 @@ footer .devise{
     .hero {
         margin-left: 10%;
         margin-top: 30%;
+        margin-bottom: -50%;
+    }
+
+    .hero-pres h1{
+        font-size: 16px;
     }
 
     .hero-pres h2, .hero-pres h3{
-        font-size: 17px;
+        font-size: 14px;
+        margin: 5px 0px;
     }
 
     .specialities p{
         width: 200px;
         font-size: 10px;
-    }
-
-    .about{
-        height: 50vh;
     }
 
     .about-content{
@@ -805,6 +811,7 @@ footer .devise{
     }
 
     .about-img img{
+        margin-top: 100px;
         width: 100px;
     }
 
@@ -871,7 +878,7 @@ footer .devise{
 }
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 428px) {
     ul {
         position: fixed;
         top: 0;
