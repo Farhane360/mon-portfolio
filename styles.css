@@ -834,14 +834,15 @@ footer .devise{
     }
 
     .card-services{
-        width: 90%;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
+        margin-left: auto;
+        width: 220%;
     }
 
     .all-services{
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
 
     .all-skills {
